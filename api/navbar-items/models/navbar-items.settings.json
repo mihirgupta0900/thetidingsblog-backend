@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbar_items",
+  "info": {
+    "name": "NavbarItems",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "nav_sub_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav-foot.sub-items"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

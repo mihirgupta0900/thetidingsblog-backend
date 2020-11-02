@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_items",
+  "info": {
+    "name": "FooterItems"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sub_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav-foot.sub-items"
+    }
+  }
+}
