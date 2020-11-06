@@ -17,11 +17,13 @@
     "about": {
       "type": "text"
     },
-    "profile_pic": {
+    "pic": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos"
       ],
       "plugin": "upload",
       "required": false
