@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "desciption": {
+      "type": "text"
+    },
+    "blogs": {
+      "collection": "blog"
+    },
+    "articles_published": {
+      "type": "string"
+    },
+    "people_reached": {
+      "type": "string"
+    },
+    "countries_reached": {
+      "type": "string"
+    }
+  }
+}

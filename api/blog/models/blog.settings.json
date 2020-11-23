@@ -41,7 +41,8 @@
       "dominant": true
     },
     "author": {
-      "model": "author"
+      "model": "author",
+      "via": "blogs"
     },
     "slug": {
       "type": "uid"

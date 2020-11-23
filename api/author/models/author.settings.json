@@ -27,6 +27,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "blogs": {
+      "via": "author",
+      "collection": "blog"
     }
   }
 }
