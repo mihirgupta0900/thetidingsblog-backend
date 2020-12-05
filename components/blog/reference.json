@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blog_references",
+  "info": {
+    "name": "reference",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "display_text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
