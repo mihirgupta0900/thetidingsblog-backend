@@ -58,6 +58,9 @@
       "type": "component",
       "repeatable": true,
       "component": "blog.reference"
+    },
+    "excerpt": {
+      "type": "string"
     }
   }
 }

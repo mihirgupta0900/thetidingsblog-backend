@@ -25,6 +25,9 @@
     },
     "linkedin_link": {
       "type": "string"
+    },
+    "twitter_link": {
+      "type": "string"
     }
   }
 }
