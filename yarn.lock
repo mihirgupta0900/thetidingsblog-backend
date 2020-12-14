@@ -1073,6 +1073,13 @@
     "@ckeditor/ckeditor5-ui" "^23.1.0"
     "@ckeditor/ckeditor5-widget" "^23.1.0"
 
+"@ckeditor/ckeditor5-react@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-react/-/ckeditor5-react-3.0.0.tgz#05a1bdd7b26a8c1df6fd734376ea84e394d6ab47"
+  integrity sha512-kqoD0rbGeUp7CjYBtKcwXVVSWO/VL1QsoTyeGbFyoMHmkM96fBj0TI0Xs2kFqKkeiICtAnwvul3GVNWbIlK/Tw==
+  dependencies:
+    prop-types "^15.7.2"
+
 "@ckeditor/ckeditor5-typing@^23.1.0":
   version "23.1.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-typing/-/ckeditor5-typing-23.1.0.tgz#c760ca4f5be938a351996dd078f50187ae693444"

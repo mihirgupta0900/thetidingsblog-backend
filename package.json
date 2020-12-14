@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@ckeditor/ckeditor5-react": "^3.0.0",
     "ckeditor5-custom-markdown-tm": "^0.0.5",
     "knex": "^0.21.12",
     "pg": "^8.5.1",
